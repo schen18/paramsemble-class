@@ -1,0 +1,28 @@
+# Include documentation files
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+
+# Include example files
+recursive-include examples *.py
+
+# Include test files
+recursive-include tests *.py
+
+# Include package data
+recursive-include paramsemble_class *.py
+
+# Exclude compiled Python files
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__
+global-exclude *.so
+
+# Exclude development and build artifacts
+global-exclude .git*
+global-exclude .hypothesis
+global-exclude .pytest_cache
+global-exclude *.egg-info
+global-exclude dist
+global-exclude build
