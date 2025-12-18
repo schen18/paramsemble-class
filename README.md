@@ -1,8 +1,8 @@
 # Paramsemble-Class - Parametric Ensemble for Classification
 
-Paramsemble-Class (arametric Ensemble for Classification) is a Python library for advanced classification tasks using ensemble methods based on combinatorial feature selection and parametric logistic regression.
+Paramsemble-Class (Parametric Ensemble for Classification) is a Python library for advanced classification tasks using ensemble methods based on combinatorial feature selection and parametric logistic regression.
 
-This apprach can outperform XGBoost for datasets that are highly heterogenous, or have high variability of noise (e.g. changing customer behaviors over time), or contain rare events. This approach has been validated during COVID-19 where models based on other ensemble methods like random forests, XGBoost etc. collapsed, but models using this approach maintained their performance despite some declines.
+This approach can outperform XGBoost for datasets that are highly heterogenous, or have high variability of noise (e.g. changing customer behaviors over time), or contain rare events. This approach has been validated during COVID-19 where models based on other ensemble methods like random forests, XGBoost etc. collapsed, but models using this approach maintained their performance despite some declines.
 
 
 ## Features
