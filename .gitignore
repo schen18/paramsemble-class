@@ -80,3 +80,6 @@ dmypy.json
 !pyproject.json
 chat.txt
 INSTALL.md
+
+# Kiro IDE files
+.kiro/
